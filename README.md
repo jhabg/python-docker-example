@@ -35,5 +35,5 @@ docker run --rm -v "$(pwd)":/app sample-csv
 
 This command does the following:
 
-    - `--rm`: Automatically remove the container when it exits.
-    - `-v "$(pwd)":/app`: Mounts the current directory to the /app directory in the container. This ensures that the generated sample_data.csv file is available in your local directory.
+- `--rm`: Automatically remove the container when it exits.
+- `-v "$(pwd)":/app`: Mounts the current directory to the /app directory in the container. This ensures that the generated sample_data.csv file is available in your local directory.
